@@ -53,7 +53,7 @@ stages {
 
                             docker run -d \
                                 --name blue-app \
-                                -p 5000:5000 \
+                                -p 5001:5000 \
                                 -e VERSION=Blue-V1 \
                                 ghcr.io/khushi-mishra13/python-calculator:latest
 
